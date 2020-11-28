@@ -22,48 +22,70 @@ ul {
 }
 
 .container {
-    width: 90%;
-    max-width: 1100px;
+    max-width: 2000px;
     margin: auto;
 }
 
 /*  Nav */
 
-.main-nav {
+nav {
+    width: 90%;
+    margin: auto;
     display: flex;
     align-items: center;
-    justify-content: space-between;
     height: 60px;
     padding: 20px 0;
     font-size: 13px;
 }
 
-.main-nav .logo {
+nav .logo {
     width: 110px;
 }
 
-.main-nav ul {
+nav ul {
     display: flex;
 }
 
-.main-nav ul li {
+nav ul li {
     padding: 0 10px;
 }
 
-.main-nav ul li a {
+nav ul li a {
     padding-bottom: 2px;
 }
 
-.main-nav ul li a:hover {
+nav ul li a:hover {
     border-bottom: 2px solid red;
 }
 
-.main-nav ul.main-menu {
+nav ul{
     flex: 1;
     margin-left: 20px;
 }
 
-.main-nav .right-menu .user {
-    width: 32px;
+
+main #showcase {
+    width: 100%;
+    
 }
 
+main #showcase ul {
+    display: flex;
+    align-items: center;
+}
+
+main #showcase ul img {
+    border: 3px solid #414141;
+}
+
+main #showcase .side {
+    flex: 1;
+}
+
+main #showcase #center {
+    flex: 2;
+}
+
+main #showcase img {
+    width: 100%;
+}

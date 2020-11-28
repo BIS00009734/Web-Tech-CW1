@@ -9,34 +9,39 @@
 <body>
     <div class="container">
         <!-- Nav -->
-        <nav class="main-nav">
+        <nav>
 
             <img src="img/logo.png" alt="Netflix" class="logo">
 
-            <ul class="main-menu">
+            <ul>
                 <li><a href="#">Main</a></li>
                 <li><a href="#">Movies</a></li>
                 <li><a href="#">Cartoons</a></li>
                 <li><a href="#">Serials</a></li>
                 <li><a href="#">About us</a></li>
             </ul>
-
-            <ul class="right-menu">
-                <li>
-                    <a href="#">
-                        <img src="img/user.png" alt="user" class="user">
-                    </a>
-                </li>
-            </ul>
         </nav>
 
         <main>
             <!-- Showcase -->
+            <section id="showcase">
+                <ul>
+                    <li class="side"><img id="showcaseImg1" src="img/joker.jpg" alt="Joker" onclick="showcaseChange(0)"></li>
+                    <li id="center">
+                        <a id="centerLink" href="tenet.html"><img id="showcaseImg2" src="img/tenet.jpg" alt="Tenet"></a>
+                    </li>
+                    <li class="side"><img id="showcaseImg3" src="img/solar.jpg" alt="Solar" onclick="showcaseChange(2)"></li>
+                </ul>
+
+            </section>
+
 
 
         </main>
 
 
     </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
