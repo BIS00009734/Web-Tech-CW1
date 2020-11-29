@@ -66,7 +66,16 @@ nav ul{
 
 main #showcase {
     width: 100%;
+    margin: 0 0 20px 0;
+    background: rgb(97,97,97);
+    background: radial-gradient(circle, rgba(97,97,97,1) 0%, rgba(0,0,0,1) 100%);
     
+}
+
+main h1 {
+    padding: 30px 0 30px 40px;
+    font-size: 22px;
+    font-weight: 600;
 }
 
 main #showcase ul {
@@ -75,7 +84,7 @@ main #showcase ul {
 }
 
 main #showcase ul img {
-    border: 3px solid #414141;
+    border: 3px solid #000000;
 }
 
 main #showcase .side {
@@ -84,8 +93,122 @@ main #showcase .side {
 
 main #showcase #center {
     flex: 2;
+    position: relative;
+}
+
+main #showcase .link {
+    width: 150px;
+    height: 40px;
+    margin: auto;
+    position: absolute;
+    top: 40%; left: 0; bottom: 0; right: 0;
+    background: rgb(117, 0, 0);
+}
+
+main #showcase .link:hover{
+    background: rgb(180, 26, 26);
+}
+
+main #showcase .link a {
+    display: block;
+    margin: 5px 16px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+main #showcase #center h2 {
+    position: absolute;
+    width: 400px;
+    text-align: center;
+    padding: 3px 5px;
+    border-radius: 0 0 20px 20px;
+    color: rgb(255, 228, 234);
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    background: rgb(0, 0, 0);
 }
 
 main #showcase img {
+    margin-bottom: -7px;
     width: 100%;
+    height: auto;
+}
+
+
+main .flexboxP {
+    margin: 0 20px;
+    background: rgb(0, 0, 0);
+}
+
+main .flexboxP .main {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+main .flexboxP .main .items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: auto;
+    margin: 10px;
+    border-radius: 20px;
+    background: rgb(48, 48, 48);
+}
+
+
+
+main .flexboxP .main .items img {
+    width: 200px;
+    margin: auto;
+}
+
+main .flexboxP .main .items a:hover {
+    filter: brightness(70%);
+}
+
+
+main.flexboxP .main .flexItemInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+}
+
+main .flexboxP .main .flexItemInfo p {
+    display: block;
+    font-weight: 550;
+    margin: 20px 10px 40px 10px;
+    width: 100px;
+    word-wrap: normal;
+    text-align: center
+}
+
+footer {
+    background: #222;
+    color: #bbb;
+    font-size: 12px;
+    padding: 20px 0;
+}
+
+.footer-inner {
+    max-width: 1100;
+    margin: 0 auto;
+    padding: 0 20px 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer ul {
+    display: flex;
+    margin: auto;
+    align-items: center;
+}
+
+footer li {
+    margin-right: 30px;
+    margin-bottom: 15px;
 }

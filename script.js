@@ -1,7 +1,7 @@
 var showcaseitems = {
-    Img1: ['joker.html', "img/joker.jpg", 'Joker'],
-    Img2: ['tenet.html', 'img/tenet.jpg', 'Tenet'],
-    Img3: ['solar.html', 'img/solar.jpg', 'Solar']
+    Img1: ['joker.html', "img/joker.jpg", 'Joker', 'Joker 2019'],
+    Img2: ['tenet.html', 'img/tenet.jpg', 'Tenet', 'Tenet 2020'],
+    Img3: ['solar.html', 'img/solar.jpg', 'Solar', 'Solar Opposites 2020']
 }
 
 // Changing showcase
@@ -25,4 +25,5 @@ function showcaseChange (sideLi) {
     document.getElementById('showcaseImg3').alt = showcaseitems.Img1[2]
 
     document.getElementById('centerLink').href = showcaseitems.Img2[0]
+    document.getElementById('showcaseInfo').innerHTML = showcaseitems.Img2[3]
 }
