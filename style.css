@@ -247,7 +247,7 @@ main .genreSection .genreFlex li {
     background: rgb(64,0,0);
 background: linear-gradient(135deg, rgb(61, 44, 44) 0%, rgb(68, 47, 61) 24%, rgba(25,0,61,1) 57%, rgba(0,35,78,1) 81%, rgba(0,52,28,1) 100%);
 background-size: 600% 100%;
-    animation: gradient 16s linear infinite;
+    animation: gradient 16s ease infinite;
     animation-direction: alternate;
 }
 
@@ -327,6 +327,116 @@ main .genreSection .info p {
 .video-info .info-text p {
     font-size: 16px;
 }
+
+/* About */
+#about-img {
+    width: 600px;
+    margin: auto;
+}
+
+#about-img img {
+    width: 600px;
+}
+
+section.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgb(0,0,0);
+    background: linear-gradient(45deg, rgba(0,0,0,1) 0%, rgb(58, 0, 0) 15%, rgba(0,28,77,1) 30%, rgba(42,0,70,1) 45%, rgb(59, 0, 36) 60%, rgba(0,5,74,1) 75%, rgb(66, 0, 59) 87%, rgb(48, 0, 0) 100%);
+    background-size: 600% 100%;
+    animation: gradient 16s ease infinite;
+    animation-direction: alternate;
+}
+
+.about .info {
+    background: rgb(0, 0, 0);
+}
+
+.about #first {
+    width: 90%;
+    align-self: flex-end;
+    padding: 50px 30px 70px 20px;
+    border-radius: 0 0 0 50px;
+}
+
+.about #first h1 {
+    text-align: center;
+    font-size: 42px;
+}
+
+.about #first h3 {
+    text-align: center;
+    font-size: 36px;
+}
+
+.about #central {
+    margin: 50px auto;
+}
+
+.about #second {
+    width: 90%;
+    align-self: flex-start;
+    padding: 50px 5% 70px 5%;
+    border-radius: 0 50px 50px 0;
+}
+
+.about #second h1 {
+    text-align: center;
+    font-size: 42px;
+}
+
+.about #second h3 {
+    text-align: center;
+    font-size: 36px;
+}
+
+.about form {
+    align-self: flex-end;
+    background: black;
+    margin-top: 90px;
+    padding: 50px;
+    width: 90%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 50px 0 0 0 ;
+}
+
+.about form * {
+    font-size: 22px;
+    margin: -5px 0;
+}
+
+.about form input {
+    width: 350px;
+}
+
+.about form textarea {
+    width: 350px;
+    height: 100px;
+}
+
+.about form button {
+    margin-top: 10px;
+    margin-bottom: -10px;
+    background: crimson;
+    padding: 5px 20px;
+    border: 0;
+    border-radius: 3px;
+    color: white;
+}
+
+.about form button:hover {
+    background: rgb(182, 0, 0);
+}
+
+.about form button:active {
+    background: rgb(0, 0, 0);
+}
+
+
 
 @keyframes gradient {
     0% {background-position: 0%;}
