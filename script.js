@@ -1,7 +1,7 @@
 var showcaseitems = {
-    Img1: ['joker.html', "img/joker.jpg", 'Joker', 'Joker 2019'],
-    Img2: ['tenet.html', 'img/tenet.jpg', 'Tenet', 'Tenet 2020'],
-    Img3: ['solar.html', 'img/solar.jpg', 'Solar', 'Solar Opposites 2020']
+    Img1: ['movies/joker.html', "img/joker.jpg", 'Joker', 'Joker 2019'],
+    Img2: ['movies/tenet.html', 'img/tenet.jpg', 'Tenet', 'Tenet 2020'],
+    Img3: ['movies/solar.html', 'img/solar.jpg', 'Solar', 'Solar Opposites 2020']
 }
 
 
