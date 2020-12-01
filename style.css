@@ -224,6 +224,10 @@ footer li a:hover {
     color: darksalmon;
 }
 
+footer p {
+    text-align: center;
+}
+
 /* Genre flexbox */
 
 main .genreSection {
@@ -437,6 +441,23 @@ section.about {
 }
 
 
+@media(max-width: 700px) {
+    main #flexbox-main {
+        margin: 0;
+    }
+
+    main #flexbox-main .items img {
+        width: 250px;
+    }
+
+    main.flexbox-main .main .flexItemInfo {
+        width: 180px;
+    }
+
+
+
+
+}
 
 @keyframes gradient {
     0% {background-position: 0%;}
