@@ -291,7 +291,7 @@ main .genreSection .info p {
     overflow: hidden;
     width: 80%;
     margin: 0 auto;
-    padding-top: 42.85%;
+    padding-top: 45%;
 }
 
 .video iframe {
@@ -530,6 +530,16 @@ section.about {
         margin: 50px auto;
     }
 
+    .video {
+        width: 100%;
+    }
+
+    .video-info {
+        flex-direction: column;
+    }
+
+    .video-info img{
+        width: 100%;
     }
 
 }
