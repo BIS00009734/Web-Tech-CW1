@@ -4,6 +4,7 @@ var showcaseitems = {
     Img3: ['movies/solar.html', 'img/solar.jpg', 'Solar', 'Solar Opposites 2020']
 }
 
+document.querySelector('.menu-btn').addEventListener('click', () => document.querySelector('.mainnav').classList.toggle('show'));
 
 // Changing showcase
 function showcaseChange (sideLi) { 
