@@ -368,12 +368,12 @@ section.about {
     border-radius: 0 0 0 50px;
 }
 
-.about #first h1 {
+.about .info h1 {
     text-align: center;
     font-size: 42px;
 }
 
-.about #first h3 {
+.about .info h3 {
     text-align: center;
     font-size: 36px;
 }
@@ -387,16 +387,6 @@ section.about {
     align-self: flex-start;
     padding: 50px 5% 70px 5%;
     border-radius: 0 50px 50px 0;
-}
-
-.about #second h1 {
-    text-align: center;
-    font-size: 42px;
-}
-
-.about #second h3 {
-    text-align: center;
-    font-size: 36px;
 }
 
 .about form {
@@ -576,17 +566,27 @@ section.about {
     }
 
     #about-img {
-        width: 400px;
+        width: 300px;
         margin: auto;
     }
     
     #about-img img {
-        width: 400px;
+        width: 300px;
     }
 
     .about #central {
-        width: 350px;
+        width: 300px;
         margin: 50px auto;
+    }
+
+    .about .info h1 {
+        text-align: center;
+        font-size: 32px;
+    }
+    
+    .about .info h3 {
+        text-align: center;
+        font-size: 26px;
     }
 
     .video {
@@ -603,6 +603,20 @@ section.about {
 
     footer li {
         margin-right: 10px;
+    }
+
+    .about form * {
+        font-size: 14px;
+        margin: -5px 0;
+    }
+
+    .about form input {
+        width: 250px;
+    }
+    
+    .about form textarea {
+        width: 250px;
+        height: 70px;
     }
 
 }
