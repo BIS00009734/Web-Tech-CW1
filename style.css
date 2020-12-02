@@ -75,7 +75,6 @@ main #showcase {
     width: 100%;
     margin: 0 0 20px 0;
     background: rgb(97,97,97);
-    background: radial-gradient(circle, rgba(97,97,97,1) 0%, rgba(0,0,0,1) 100%);
     
 }
 
@@ -101,7 +100,7 @@ main #showcase .side {
 
 
 main #showcase #center {
-    flex: 2;
+    flex: 2.8;
     position: relative;
 }
 
