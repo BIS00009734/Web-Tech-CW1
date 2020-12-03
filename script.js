@@ -3,7 +3,7 @@ var showcaseitems = {
     Img2: ['movies/tenet.html', 'img/tenet.jpg', 'Tenet', 'Tenet 2020', 'img/tenetP.jpg'],
     Img3: ['movies/solar.html', 'img/solar.jpg', 'Solar', 'Solar Opposites 2020', 'img/solarP.jpg']
 }
-
+// changes nav ul class attr in small screen when menu icon clicked
 document.querySelector('.menu-btn').addEventListener('click', () => document.querySelector('.mainnav').classList.toggle('show'));
 
 // Changing showcase

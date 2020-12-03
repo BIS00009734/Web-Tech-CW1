@@ -251,8 +251,8 @@ main .genreSection .genreFlex li {
     padding: 0 20px 0 0;
     border-radius: 0 20px 20px 0;
     background: rgb(64,0,0);
-background: linear-gradient(135deg, rgb(61, 44, 44) 0%, rgb(68, 47, 61) 24%, rgba(25,0,61,1) 57%, rgba(0,35,78,1) 81%, rgba(0,52,28,1) 100%);
-background-size: 600% 100%;
+    background: linear-gradient(135deg, rgb(61, 44, 44) 0%, rgb(68, 47, 61) 24%, rgba(25,0,61,1) 57%, rgba(0,35,78,1) 81%, rgba(0,52,28,1) 100%);
+    background-size: 600% 100%;
     animation: gradient 16s ease infinite;
     animation-direction: alternate;
 }
@@ -304,7 +304,7 @@ main .genreSection .info p {
     display: flex;
     width: 100%;
     margin: 30px 0;
-    padding: 3%;
+    padding: 3% 10%;
     background: rgb(17, 17, 17);
 }
 
@@ -359,6 +359,7 @@ section.about {
 
 .about .info {
     background: rgb(0, 0, 0);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.226);
 }
 
 .about #first {
@@ -408,11 +409,14 @@ section.about {
 
 .about form input {
     width: 350px;
+    background: rgb(211, 210, 210);
 }
 
 .about form textarea {
     width: 350px;
     height: 100px;
+    background: rgb(211, 211, 211);
+
 }
 
 .about form button {
@@ -436,12 +440,14 @@ section.about {
     main .flexbox-main .main {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
+    }
 }
 
 @media(max-width: 1400px) {
     main .flexbox-main .main {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
+    }
 }
 
 @media(max-width: 1300px) {
@@ -460,6 +466,7 @@ section.about {
     main .flexbox-main .main {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 @media(max-width: 700px) {
@@ -598,7 +605,8 @@ section.about {
     }
 
     .video-info img{
-        width: 100%;
+        width: 80%;
+        margin: 0 10%;
     }
 
     footer li {
@@ -625,6 +633,7 @@ section.about {
     main .flexbox-main .main {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
+    }
 }
 
 @media(max-width: 350px) {
@@ -637,8 +646,6 @@ section.about {
         width: 90%;
         margin-left: 3%;
     }
-    }
-
     main .flexbox-main .main .items img {
         width: 100%;
     }
